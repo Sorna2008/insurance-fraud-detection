@@ -1,0 +1,25 @@
+{
+  "name": "insurance-fraud-detection-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Insurance Fraud Detection System with Explainable AI (SHAP) & SIU Workflow",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --port 8000",
+    "ml:generate-data": "python dataset/generate_synthetic_data.py",
+    "ml:train": "python ml/train.py",
+    "test:api": "python -c \"import requests; print(requests.get('http://127.0.0.1:8000/health').json())\""
+  },
+  "keywords": [
+    "insurance",
+    "fraud-detection",
+    "xgboost",
+    "shap",
+    "explainable-ai",
+    "fastapi",
+    "react",
+    "typescript"
+  ],
+  "author": "InsureGuard AI SIU Team",
+  "license": "MIT"
+}

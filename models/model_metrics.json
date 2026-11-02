@@ -1,0 +1,578 @@
+{
+  "dataset_size": 12000,
+  "test_size": 2400,
+  "fraud_rate": 0.1003,
+  "champion": "XGBoost",
+  "models": {
+    "xgboost": {
+      "name": "XGBoost",
+      "accuracy": 0.9,
+      "precision": 0.5017,
+      "recall": 0.5975,
+      "f1_score": 0.5455,
+      "roc_auc": 0.9225,
+      "confusion_matrix": {
+        "tn": 2016,
+        "fp": 143,
+        "fn": 97,
+        "tp": 144
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0037,
+          "tpr": 0.2946
+        },
+        {
+          "fpr": 0.0102,
+          "tpr": 0.3237
+        },
+        {
+          "fpr": 0.0153,
+          "tpr": 0.3485
+        },
+        {
+          "fpr": 0.0171,
+          "tpr": 0.4066
+        },
+        {
+          "fpr": 0.0236,
+          "tpr": 0.4232
+        },
+        {
+          "fpr": 0.0287,
+          "tpr": 0.4523
+        },
+        {
+          "fpr": 0.0361,
+          "tpr": 0.4689
+        },
+        {
+          "fpr": 0.0435,
+          "tpr": 0.4979
+        },
+        {
+          "fpr": 0.0496,
+          "tpr": 0.5187
+        },
+        {
+          "fpr": 0.0547,
+          "tpr": 0.5436
+        },
+        {
+          "fpr": 0.0607,
+          "tpr": 0.5602
+        },
+        {
+          "fpr": 0.0635,
+          "tpr": 0.5851
+        },
+        {
+          "fpr": 0.0662,
+          "tpr": 0.5975
+        },
+        {
+          "fpr": 0.0681,
+          "tpr": 0.6307
+        },
+        {
+          "fpr": 0.076,
+          "tpr": 0.6432
+        },
+        {
+          "fpr": 0.0811,
+          "tpr": 0.6598
+        },
+        {
+          "fpr": 0.0871,
+          "tpr": 0.6722
+        },
+        {
+          "fpr": 0.0894,
+          "tpr": 0.6929
+        },
+        {
+          "fpr": 0.0917,
+          "tpr": 0.7054
+        },
+        {
+          "fpr": 0.0936,
+          "tpr": 0.722
+        },
+        {
+          "fpr": 0.1005,
+          "tpr": 0.7386
+        },
+        {
+          "fpr": 0.107,
+          "tpr": 0.7593
+        },
+        {
+          "fpr": 0.1181,
+          "tpr": 0.7718
+        },
+        {
+          "fpr": 0.132,
+          "tpr": 0.7925
+        },
+        {
+          "fpr": 0.1357,
+          "tpr": 0.8091
+        },
+        {
+          "fpr": 0.1403,
+          "tpr": 0.8299
+        },
+        {
+          "fpr": 0.1436,
+          "tpr": 0.8465
+        },
+        {
+          "fpr": 0.1783,
+          "tpr": 0.8672
+        },
+        {
+          "fpr": 0.1964,
+          "tpr": 0.8838
+        },
+        {
+          "fpr": 0.2006,
+          "tpr": 0.9004
+        },
+        {
+          "fpr": 0.2172,
+          "tpr": 0.9129
+        },
+        {
+          "fpr": 0.2422,
+          "tpr": 0.9336
+        },
+        {
+          "fpr": 0.2598,
+          "tpr": 0.9461
+        },
+        {
+          "fpr": 0.2987,
+          "tpr": 0.9627
+        },
+        {
+          "fpr": 0.4349,
+          "tpr": 0.9751
+        },
+        {
+          "fpr": 0.5419,
+          "tpr": 0.9917
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "random_forest": {
+      "name": "Random Forest",
+      "accuracy": 0.9104,
+      "precision": 0.5528,
+      "recall": 0.5643,
+      "f1_score": 0.5585,
+      "roc_auc": 0.9187,
+      "confusion_matrix": {
+        "tn": 2049,
+        "fp": 110,
+        "fn": 105,
+        "tp": 136
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0014,
+          "tpr": 0.0581
+        },
+        {
+          "fpr": 0.0046,
+          "tpr": 0.0913
+        },
+        {
+          "fpr": 0.0079,
+          "tpr": 0.1079
+        },
+        {
+          "fpr": 0.0134,
+          "tpr": 0.1618
+        },
+        {
+          "fpr": 0.0157,
+          "tpr": 0.2241
+        },
+        {
+          "fpr": 0.0204,
+          "tpr": 0.2614
+        },
+        {
+          "fpr": 0.0227,
+          "tpr": 0.2822
+        },
+        {
+          "fpr": 0.025,
+          "tpr": 0.3029
+        },
+        {
+          "fpr": 0.0278,
+          "tpr": 0.3527
+        },
+        {
+          "fpr": 0.0301,
+          "tpr": 0.4108
+        },
+        {
+          "fpr": 0.0324,
+          "tpr": 0.4398
+        },
+        {
+          "fpr": 0.0352,
+          "tpr": 0.4689
+        },
+        {
+          "fpr": 0.0398,
+          "tpr": 0.4855
+        },
+        {
+          "fpr": 0.0445,
+          "tpr": 0.5145
+        },
+        {
+          "fpr": 0.0477,
+          "tpr": 0.5519
+        },
+        {
+          "fpr": 0.0523,
+          "tpr": 0.5768
+        },
+        {
+          "fpr": 0.0556,
+          "tpr": 0.6017
+        },
+        {
+          "fpr": 0.0611,
+          "tpr": 0.6307
+        },
+        {
+          "fpr": 0.0672,
+          "tpr": 0.6515
+        },
+        {
+          "fpr": 0.0709,
+          "tpr": 0.6722
+        },
+        {
+          "fpr": 0.0792,
+          "tpr": 0.6888
+        },
+        {
+          "fpr": 0.0848,
+          "tpr": 0.7054
+        },
+        {
+          "fpr": 0.0926,
+          "tpr": 0.7427
+        },
+        {
+          "fpr": 0.1024,
+          "tpr": 0.7676
+        },
+        {
+          "fpr": 0.107,
+          "tpr": 0.7925
+        },
+        {
+          "fpr": 0.1181,
+          "tpr": 0.8174
+        },
+        {
+          "fpr": 0.1264,
+          "tpr": 0.834
+        },
+        {
+          "fpr": 0.1343,
+          "tpr": 0.8506
+        },
+        {
+          "fpr": 0.1533,
+          "tpr": 0.8672
+        },
+        {
+          "fpr": 0.1769,
+          "tpr": 0.8838
+        },
+        {
+          "fpr": 0.1899,
+          "tpr": 0.9046
+        },
+        {
+          "fpr": 0.2186,
+          "tpr": 0.9212
+        },
+        {
+          "fpr": 0.302,
+          "tpr": 0.9378
+        },
+        {
+          "fpr": 0.3516,
+          "tpr": 0.9544
+        },
+        {
+          "fpr": 0.4442,
+          "tpr": 0.971
+        },
+        {
+          "fpr": 0.5035,
+          "tpr": 0.9876
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "logistic_regression": {
+      "name": "Logistic Regression",
+      "accuracy": 0.7825,
+      "precision": 0.2912,
+      "recall": 0.8133,
+      "f1_score": 0.4289,
+      "roc_auc": 0.8768,
+      "confusion_matrix": {
+        "tn": 1682,
+        "fp": 477,
+        "fn": 45,
+        "tp": 196
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0019,
+          "tpr": 0.083
+        },
+        {
+          "fpr": 0.0051,
+          "tpr": 0.1162
+        },
+        {
+          "fpr": 0.0097,
+          "tpr": 0.1328
+        },
+        {
+          "fpr": 0.012,
+          "tpr": 0.1909
+        },
+        {
+          "fpr": 0.0167,
+          "tpr": 0.2531
+        },
+        {
+          "fpr": 0.019,
+          "tpr": 0.278
+        },
+        {
+          "fpr": 0.0245,
+          "tpr": 0.2988
+        },
+        {
+          "fpr": 0.0269,
+          "tpr": 0.3485
+        },
+        {
+          "fpr": 0.0357,
+          "tpr": 0.3817
+        },
+        {
+          "fpr": 0.0394,
+          "tpr": 0.4025
+        },
+        {
+          "fpr": 0.0431,
+          "tpr": 0.4191
+        },
+        {
+          "fpr": 0.0482,
+          "tpr": 0.4481
+        },
+        {
+          "fpr": 0.0547,
+          "tpr": 0.4647
+        },
+        {
+          "fpr": 0.0616,
+          "tpr": 0.5062
+        },
+        {
+          "fpr": 0.0676,
+          "tpr": 0.527
+        },
+        {
+          "fpr": 0.0797,
+          "tpr": 0.556
+        },
+        {
+          "fpr": 0.0875,
+          "tpr": 0.5851
+        },
+        {
+          "fpr": 0.095,
+          "tpr": 0.6183
+        },
+        {
+          "fpr": 0.1102,
+          "tpr": 0.639
+        },
+        {
+          "fpr": 0.1181,
+          "tpr": 0.668
+        },
+        {
+          "fpr": 0.1334,
+          "tpr": 0.6888
+        },
+        {
+          "fpr": 0.1436,
+          "tpr": 0.7095
+        },
+        {
+          "fpr": 0.1528,
+          "tpr": 0.7303
+        },
+        {
+          "fpr": 0.1691,
+          "tpr": 0.7552
+        },
+        {
+          "fpr": 0.1894,
+          "tpr": 0.7759
+        },
+        {
+          "fpr": 0.2047,
+          "tpr": 0.805
+        },
+        {
+          "fpr": 0.2283,
+          "tpr": 0.8216
+        },
+        {
+          "fpr": 0.2464,
+          "tpr": 0.8506
+        },
+        {
+          "fpr": 0.2728,
+          "tpr": 0.8714
+        },
+        {
+          "fpr": 0.314,
+          "tpr": 0.8921
+        },
+        {
+          "fpr": 0.3441,
+          "tpr": 0.9087
+        },
+        {
+          "fpr": 0.3997,
+          "tpr": 0.9336
+        },
+        {
+          "fpr": 0.4423,
+          "tpr": 0.9502
+        },
+        {
+          "fpr": 0.5512,
+          "tpr": 0.971
+        },
+        {
+          "fpr": 0.7902,
+          "tpr": 0.9876
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "isolation_forest": {
+      "name": "Isolation Forest (Anomaly Detection)",
+      "description": "Unsupervised anomaly detector identifying outlier claims without label dependency",
+      "contamination": 0.1,
+      "n_estimators": 150
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "supporting_documents_count",
+      "importance": 0.301
+    },
+    {
+      "feature": "police_report_filed_Yes",
+      "importance": 0.0695
+    },
+    {
+      "feature": "number_of_previous_claims",
+      "importance": 0.0545
+    },
+    {
+      "feature": "police_report_filed_No",
+      "importance": 0.0514
+    },
+    {
+      "feature": "damage_severity_Moderate",
+      "importance": 0.0438
+    },
+    {
+      "feature": "damage_severity_Minor",
+      "importance": 0.0426
+    },
+    {
+      "feature": "submission_delay_days",
+      "importance": 0.0247
+    },
+    {
+      "feature": "claim_amount",
+      "importance": 0.0238
+    },
+    {
+      "feature": "damage_severity_Major",
+      "importance": 0.0228
+    },
+    {
+      "feature": "incident_weekend",
+      "importance": 0.0217
+    },
+    {
+      "feature": "insurance_type_Life",
+      "importance": 0.0214
+    },
+    {
+      "feature": "insurance_type_Health",
+      "importance": 0.0211
+    },
+    {
+      "feature": "claim_to_income_ratio",
+      "importance": 0.021
+    },
+    {
+      "feature": "policy_age_days",
+      "importance": 0.0204
+    },
+    {
+      "feature": "witness_present_Yes",
+      "importance": 0.0187
+    }
+  ],
+  "version": "1.0.0",
+  "last_trained": "2026-11-02T08:49:36.424759"
+}
